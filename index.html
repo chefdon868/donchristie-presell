@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your ads changed forty times this quarter. Your page didn't. | Don Christie</title>
+<meta name="description" content="A direct-response letter for the person who signs off on ad spend: your ads changed forty times this quarter, your landing page didn't. One productised pre-sell page, seven days, $575 beta.">
+<meta property="og:title" content="The one thing in your funnel nobody has tested">
+<meta property="og:description" content="You've tested 40 ad variants this quarter. How many pages have you tested? Productised pre-sell pages for supplements, DTC and beauty. First one is $575.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='Georgia,serif'>D</text></svg>">
+<style>
+@font-face{font-family:'Fraunces';src:url('fonts/fraunces.woff2') format('woff2');font-weight:400 700;font-style:normal;font-display:swap}
+@font-face{font-family:'Fraunces';src:url('fonts/fraunces-italic.woff2') format('woff2');font-weight:400 700;font-style:italic;font-display:swap}
+@font-face{font-family:'Newsreader';src:url('fonts/newsreader.woff2') format('woff2');font-weight:400 700;font-style:normal;font-display:swap}
+@font-face{font-family:'Newsreader';src:url('fonts/newsreader-italic.woff2') format('woff2');font-weight:400 700;font-style:italic;font-display:swap}
+:root{
+  --paper:#f6f1e8; --card:#fbf7ef; --ink:#211d17; --muted:#6f675a;
+  --accent:#8a2f1f; --accent-dark:#6e2417; --accent-tint:rgba(138,47,31,.08);
+  --rule:rgba(33,29,23,.16); --rule-soft:rgba(33,29,23,.10);
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --display:'Fraunces',Georgia,'Times New Roman',serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:1.075rem;line-height:1.68;
+  font-optical-sizing:auto;-webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .03 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.sheet{position:relative;z-index:1;max-width:46rem;margin:0 auto;padding:clamp(24px,5vw,72px) clamp(20px,5vw,40px) 96px}
+::selection{background:var(--accent-tint)}
+a{color:var(--accent)}
+a:hover{color:var(--accent-dark)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:2px}
+
+/* ── Letterhead ── */
+.letterhead{position:relative;border-top:2px solid var(--ink);padding-top:18px;margin-bottom:clamp(40px,7vw,64px)}
+.lh-row{display:flex;gap:14px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--rule-soft)}
+.lh-label{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);min-width:74px;flex-shrink:0}
+.lh-value{font-size:1rem;color:var(--ink)}
+.lh-value em{font-style:italic;color:var(--muted)}
+.postmark{position:absolute;top:6px;right:0;width:104px;height:104px;transform:rotate(-9deg);opacity:.5;pointer-events:none}
+.kicker{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:0 0 18px}
+h1{
+  font-family:var(--display);font-weight:600;font-optical-sizing:auto;
+  font-size:clamp(2.3rem,6vw,3.9rem);line-height:1.04;letter-spacing:-.015em;
+  margin:0 0 28px;text-wrap:balance;
+}
+.open p{margin:0 0 20px;font-size:1.14rem}
+.dropcap::first-letter{
+  font-family:var(--display);font-weight:600;float:left;
+  font-size:3.6em;line-height:.82;padding:.06em .12em 0 0;color:var(--accent);
+}
+
+/* ── Sections ── */
+section{margin-top:clamp(52px,9vw,84px)}
+.kick{font-family:var(--mono);font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:14px;margin:0 0 14px}
+.kick::after{content:"";flex:1;border-top:1px solid var(--rule-soft)}
+.kick .no{color:var(--accent)}
+h2{font-family:var(--display);font-weight:600;font-size:clamp(1.5rem,3.4vw,2.05rem);line-height:1.15;letter-spacing:-.01em;margin:0 0 20px;text-wrap:balance}
+p{margin:0 0 18px}
+.pull{
+  font-family:var(--display);font-style:italic;font-weight:500;
+  font-size:clamp(1.35rem,3vw,1.7rem);line-height:1.3;color:var(--ink);
+  border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+  padding:26px 8px;margin:30px 0;text-wrap:balance;
+}
+.small{font-size:.92rem;color:var(--muted)}
+
+/* ── Worked example ── */
+.specimen{border:1px solid var(--rule);background:var(--card);margin:28px 0 14px}
+.spec-head{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding:12px 18px;border-bottom:1px solid var(--rule-soft)}
+.spec-grid{display:grid;grid-template-columns:1fr 1fr}
+.spec-col{padding:20px 18px}
+.spec-col+.spec-col{border-left:1px solid var(--rule-soft)}
+.spec-col h3{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;font-weight:500;color:var(--muted);margin:0 0 12px}
+.spec-col .big{font-family:var(--display);font-weight:600;font-size:clamp(1.7rem,4vw,2.3rem);line-height:1.1}
+.spec-col .cvr{font-size:.95rem;color:var(--muted)}
+.spec-col.winner{background:var(--accent-tint)}
+.spec-col.winner .big{color:var(--accent)}
+.spec-note{padding:12px 18px;border-top:1px solid var(--rule-soft);font-size:.9rem;color:var(--muted)}
+.delta{
+  display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:0 0 6px;
+  border:1px solid var(--accent);background:var(--accent-tint);padding:14px 18px;
+}
+.delta .amount{font-family:var(--display);font-weight:600;font-size:1.6rem;color:var(--accent);font-variant-numeric:tabular-nums}
+.delta .what{font-size:.95rem}
+
+/* ── Value stack (dotted leaders) ── */
+.stack{border:1px solid var(--rule);background:var(--card);padding:8px 20px 18px;margin:28px 0 10px}
+.stack .row{display:flex;align-items:baseline;gap:10px;padding:13px 0 2px}
+.stack .row .name{font-weight:600}
+.stack .row .dots{flex:1;border-bottom:1px dotted rgba(33,29,23,.4);transform:translateY(-4px);min-width:24px}
+.stack .row .val{font-family:var(--mono);font-size:.85rem;font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap}
+.stack .desc{margin:0 0 4px;font-size:.94rem;color:var(--muted)}
+.stack .total{border-top:1px solid var(--rule);margin-top:10px;padding-top:14px}
+.stack .total .name{font-family:var(--display);font-style:italic}
+.stack .total .val{font-family:var(--display);font-weight:600;font-size:1.05rem}
+.price-line{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:26px 0 8px}
+.price-line .price{font-family:var(--display);font-weight:600;font-size:clamp(2.6rem,7vw,3.6rem);line-height:1;color:var(--accent)}
+.price-line .terms{font-size:1rem}
+
+/* ── Buttons & CTA panels ── */
+.btn{
+  display:inline-block;background:var(--accent);color:#f9f4ea;text-decoration:none;
+  font-family:var(--serif);font-weight:600;font-size:1.02rem;
+  padding:15px 30px;border-radius:6px;border:1px solid rgba(0,0,0,.15);
+  transition:background .15s ease,transform .15s ease;
+}
+.btn:hover{background:var(--accent-dark);color:#f9f4ea;transform:translateY(-1px)}
+.btn:active{transform:translateY(0)}
+.ghost{display:inline-block;font-weight:600;color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(33,29,23,.4)}
+.ghost:hover{color:var(--accent)}
+.cta-panel{border:1.5px solid var(--ink);background:var(--card);padding:clamp(26px,5vw,40px);margin:34px 0 8px}
+.cta-panel .lead-line{font-family:var(--display);font-weight:600;font-size:clamp(1.25rem,3vw,1.6rem);line-height:1.25;margin:0 0 18px}
+.cta-actions{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:22px 0 14px}
+.cta-alt{font-size:.95rem;color:var(--muted)}
+.inline-cta{font-weight:600}
+
+/* ── FAQ ── */
+details{border-top:1px solid var(--rule)}
+details:last-of-type{border-bottom:1px solid var(--rule)}
+summary{
+  cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:baseline;
+  padding:17px 2px;font-family:var(--display);font-weight:600;font-size:1.06rem;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--mono);color:var(--accent);font-size:1.1rem;flex-shrink:0}
+details[open] summary::after{content:"–"}
+details .a{padding:0 2px 20px;color:var(--ink)}
+details .a p{margin:0 0 10px}
+
+/* ── P.S. / signoff / footer ── */
+.ps{font-style:italic}
+.ps .tag{font-family:var(--mono);font-style:normal;font-size:.72rem;letter-spacing:.16em;color:var(--accent);font-weight:600}
+.signoff{margin-top:44px}
+.sig{font-family:var(--display);font-style:italic;font-weight:500;font-size:1.9rem;color:var(--ink)}
+footer.site{
+  border-top:2px solid var(--ink);margin-top:clamp(48px,8vw,72px);padding-top:20px;
+  font-size:.88rem;color:var(--muted);
+}
+footer.site .cols{display:flex;flex-wrap:wrap;gap:8px 26px;justify-content:space-between}
+footer.site p{margin:0 0 6px}
+footer.site .fin{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+
+/* ── Sample interlude ── */
+.interlude{border:1px solid var(--rule);background:var(--card);padding:clamp(22px,4vw,32px);margin-top:clamp(52px,9vw,84px)}
+.interlude .kick{margin-bottom:10px}
+.interlude p{font-size:1rem}
+
+/* ── Sticky CTA (mobile) ── */
+.cta-bar{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  background:rgba(246,241,232,.97);border-top:1px solid var(--rule);
+  padding:10px 16px;transform:translateY(110%);transition:transform .25s ease;
+}
+.cta-bar.show{transform:none}
+.cta-bar .inner{max-width:46rem;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.cta-bar .t{font-size:.86rem;line-height:1.3}
+.cta-bar .t strong{font-family:var(--display)}
+.cta-bar .btn{padding:12px 18px;font-size:.92rem;white-space:nowrap}
+@media(min-width:720px){.cta-bar{display:none}}
+
+@media(max-width:560px){
+  .spec-grid{grid-template-columns:1fr}
+  .spec-col+.spec-col{border-left:none;border-top:1px solid var(--rule-soft)}
+  .postmark{width:76px;height:76px;top:2px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+@media print{
+  body{background:#fff}
+  body::before,.cta-bar,.postmark{display:none}
+  .btn{border:1px solid #999;color:#000;background:#fff}
+  section{margin-top:28px}
+}
+</style>
+</head>
+<body>
+
+<div class="cta-bar" id="ctaBar" aria-hidden="true">
+  <div class="inner">
+    <div class="t"><strong>The untested half of your funnel.</strong><br>First page $575 · seven days</div>
+    <a class="btn" href="mailto:don@donchristie.com?subject=Sending%20you%20my%20best%20ad&amp;body=Here%27s%20my%20best-performing%20ad%3A%0A%0A%0A%0AAnd%20the%20page%20it%20currently%20points%20to%3A%0A%0A%0A%0AProduct%3A%0A%0A%0A%0AMonthly%20ad%20spend%3A%0A">Send your best ad</a>
+  </div>
+</div>
+
+<main class="sheet">
+
+  <header class="letterhead">
+    <svg class="postmark" viewBox="0 0 120 120" role="presentation" aria-hidden="true">
+      <defs><path id="ring" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+      <circle cx="60" cy="60" r="56" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="60" cy="60" r="34" fill="none" stroke="currentColor" stroke-width="1"/>
+      <text font-family="ui-monospace,Menlo,monospace" font-size="9.5" letter-spacing="2.4" fill="currentColor">
+        <textPath href="#ring">DON CHRISTIE · DIRECT RESPONSE · URRAWAEN QLD ·</textPath>
+      </text>
+      <text x="60" y="66" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="17" fill="currentColor">D.C.</text>
+    </svg>
+    <div class="lh-row"><span class="lh-label">From</span><span class="lh-value">Don Christie &lt;don@donchristie.com&gt;</span></div>
+    <div class="lh-row"><span class="lh-label">To</span><span class="lh-value">The person who signs off on ad spend</span></div>
+    <div class="lh-row"><span class="lh-label">Subject</span><span class="lh-value"><em>Your ads changed forty times this quarter. Your page didn't.</em></span></div>
+  </header>
+
+  <p class="kicker">A letter about the one asset sitting between your click and your card</p>
+
+  <h1>Your ads changed forty times this quarter. Your page didn't.</h1>
+
+  <div class="open">
+    <p class="dropcap">Your ad account has shipped forty variants this quarter. New hooks, new thumbnails. Sometimes the whole angle, swapped out by lunchtime, because your media buyer holds the keys to that room and the cost of trying something there is an hour and some spend.</p>
+    <p>How many versions of the page those clicks land on?</p>
+    <p>Not a trick question. I already know roughly what the answer is, and it isn't your team's fault.</p>
+    <p>Every time performance dips, the same three levers get pulled. New creative. New audience. New campaign structure. Your buyer is good at all three, and all three live inside the ad account, which is the only room they have keys to.</p>
+    <p>So the ads keep changing. The page never does. Which means every test you've run this year has been run against the same constant: the one asset sitting between the click and the card, unchanged since launch.</p>
+  </div>
+
+  <section id="why">
+    <p class="kick"><span class="no">01</span> Why nobody touches the landing page</p>
+    <h2>Nobody's neglecting the page. They can't reach it.</h2>
+    <p>Your media buyer can spin up a new ad by lunchtime. The page is a different animal. A dev ticket, a designer to brief, and a queue behind whatever the ecom manager already committed to this sprint. Trying something new there costs a fortnight and three people's goodwill.</p>
+    <p>So the team optimises what it can reach. Sensibly. And a year goes by where the ads have been through eighty iterations and the page has been through none.</p>
+    <p class="pull">Ad creative decides whether someone clicks. The page decides whether they buy.</p>
+    <p>Your team has been iterating hard on the cheaper half of that equation, because it's the half they can actually touch.</p>
+  </section>
+
+  <section id="math">
+    <p class="kick"><span class="no">02</span> Standing still has a price</p>
+    <h2>Most brands never put a number on it.</h2>
+    <p>Run this on your own account, with your own figures. Mine are made up. Yours aren't.</p>
+
+    <div class="specimen">
+      <div class="spec-head">Worked example · $20,000 monthly spend · CPC $1.50 · ~13,300 clicks</div>
+      <div class="spec-grid">
+        <div class="spec-col">
+          <h3>Today · CVR 2.0%</h3>
+          <div class="big">267 orders</div>
+          <div class="cvr">× $150 AOV → <strong>$40,000 back</strong></div>
+        </div>
+        <div class="spec-col winner">
+          <h3>With a tested page · CVR 2.6%</h3>
+          <div class="big">347 orders</div>
+          <div class="cvr">× $150 AOV → <strong>$52,000 back</strong></div>
+        </div>
+      </div>
+      <div class="spec-note">Same spend. Same clicks. Same product. Only the page changed. A working pre-sell page can plausibly clear 2.6% on cold traffic.</div>
+    </div>
+
+    <div class="delta">
+      <span class="amount">+$12,000/mo</span>
+      <span class="what">Every month the page stays frozen, that's an invoice you're paying to nobody.</span>
+    </div>
+
+    <p>Believe the 2.6% or don't. Just notice you've never tested it, because nobody on the team had a way to.</p>
+    <p class="small">Running lead gen instead of orders? Swap orders for leads and AOV for cost-per-lead. The same math holds, and so does the argument.</p>
+    <p>If the numbers above look like your account, <a class="inline-cta" href="mailto:don@donchristie.com?subject=Sending%20you%20my%20best%20ad&amp;body=Here%27s%20my%20best-performing%20ad%3A%0A%0A%0A%0AAnd%20the%20page%20it%20currently%20points%20to%3A%0A%0A%0A%0AProduct%3A%0A%0A%0A%0AMonthly%20ad%20spend%3A%0A">send me your best ad and the page it points to</a>. I answer within a day.</p>
+  </section>
+
+  <section id="bloke">
+    <p class="kick"><span class="no">03</span> Where I fit</p>
+    <h2>Think of it as adding a bloke to the team. Nobody loses a desk.</h2>
+    <p>Your media buyer keeps the ad account. Your agency keeps the strategy. Your designer keeps the brand.</p>
+    <p>I take the one thing none of them own: the page in between.</p>
+    <p>That's the whole pitch. I'm not here to audit your funnel, restructure your campaigns, or tell your agency they've been doing it wrong. I write the asset that's been sitting untested since launch, hand it over, and your team tests it the way they'd test anything else.</p>
+    <p>No onboarding. No retainer. No standing meeting. You send me an ad and a page. Seven days later you get back the missing piece.</p>
+  </section>
+
+  <aside class="interlude" id="sample">
+    <p class="kick"><span class="no">·</span> Read one before you reply</p>
+    <p><strong>Most freelancers ask you to trust a portfolio they don't have. Fair.</strong> So read a spec page instead. Fictional brand, real process, built exactly the way yours will be: the voice-of-customer dig, one angle, one idea carried the whole way, a single CTA doing its job.</p>
+    <p><a class="ghost" href="sample.html">Read the spec sample →</a>&nbsp;&nbsp;When the first client page ships, it replaces the spec. Ask and I'll send whatever's on the bench today.</p>
+  </aside>
+
+  <section id="stack">
+    <p class="kick"><span class="no">04</span> What actually turns up in seven days</p>
+    <h2>Most freelancers send you six hundred words and an invoice.</h2>
+    <p>Here's what a page built to survive paid cold traffic comes with.</p>
+
+    <div class="stack">
+      <div class="row"><span class="name">The voice-of-customer dig</span><span class="dots"></span><span class="val">$750</span></div>
+      <p class="desc">Reddit threads, Amazon reviews, YouTube comments, the one-star complaints on your competitor's listing. How your buyer describes the problem at 2am when nobody's listening, which is usually nothing like your brand deck.</p>
+
+      <div class="row"><span class="name">Angle &amp; format selection</span><span class="dots"></span><span class="val">$400</span></div>
+      <p class="desc">The big idea the page runs on, and which advertorial format carries it best for your market's awareness level. Get this wrong and nothing downstream converts.</p>
+
+      <div class="row"><span class="name">The advertorial itself</span><span class="dots"></span><span class="val">$800–1,500</span></div>
+      <p class="desc">Full editorial page, 1,200–2,000 words. One idea, structured so every line's only job is getting the next line read. Objections handled before your buyer thinks to raise them. A single CTA, repeated. Market rate guides put a page like this squarely in this range.</p>
+
+      <div class="row"><span class="name">The split-test kit</span><span class="dots"></span><span class="val">$450</span></div>
+      <p class="desc">Three headlines and multiple CTA variants, ready to run against each other from day one. Your media buyer gets something to test on day eight instead of a single static page to pray over.</p>
+
+      <div class="row"><span class="name">Image &amp; layout direction</span><span class="dots"></span><span class="val">$300</span></div>
+      <p class="desc">A spec sheet so your designer knows exactly what to build and where. The page reads like a publication instead of an ad unit somebody had to rescue.</p>
+
+      <div class="row"><span class="name">Ad disclosure baked in</span><span class="dots"></span><span class="val">$200</span></div>
+      <p class="desc">"Advertisement" labelling and disclosure placement from draft one, instead of bolted on after legal has a moment. Claims review stays with your compliance team, where it belongs.</p>
+
+      <div class="row"><span class="name">The follow-up hookup</span><span class="dots"></span><span class="val">$500</span></div>
+      <p class="desc">The page tied into your email flow as one system, because the money doesn't stop at the click. I came up writing Klaviyo before I wrote advertorials.</p>
+
+      <div class="row total"><span class="name">Bought piecemeal</span><span class="dots"></span><span class="val">$3,400–4,100</span></div>
+    </div>
+
+    <div class="price-line">
+      <span class="price">$575</span>
+      <span class="terms">Your first one. Once. Not monthly.<br>The page runs for as long as the offer runs.</span>
+    </div>
+  </section>
+
+  <section id="catch">
+    <p class="kick"><span class="no">05</span> The obvious question</p>
+    <h2>So what's the catch at $575?</h2>
+    <p>Fair question. Honest answer: I need proof right now more than I need your money. Conversion data on cold traffic, with a real brand's name attached to it.</p>
+    <p>Some background, since you're being asked to trust a stranger. I spent twenty-eight years as an executive chef. Group executive chef across luxury resorts in the Asia-Pacific, running twenty-million-dollar food-and-beverage portfolios and a hundred and fifty staff at places like Palazzo Versace and Amanpulo. Along the way I founded and exited an online video ad network, so I've sat on the selling side of the click as well as the serving side: what earns it, and what has to close it.</p>
+    <p>Three decades selling wellness and indulgence to exactly the buyer your advertorial needs to convince. Face to face, one plate at a time. And luxury taught me the one thing that transfers to any vertical: nobody justifies a premium purchase with logic. They buy the feeling, then hire their logic as a lawyer.</p>
+    <p class="small">I once watched a guest send back a ninety-dollar steak over the sear, then order a second bottle of something he couldn't pronounce. I stopped trying to explain that years ago. You just learn to spot it.</p>
+    <p>What I don't have yet is a public number that says <em>this page took a cold funnel from 2.0% to 2.6%</em>.</p>
+    <p>So the first piece is $575, and when the data lands I'd like two things: the number, and permission to put your name next to it. That's the whole deal.</p>
+    <p>Once I have a handful of those, this goes away and the price is $2,500, which is closer to what the work is actually worth. This is the cheapest I will ever be. I'd rather tell you why than pretend it's a sale.</p>
+  </section>
+
+  <section id="guarantee">
+    <p class="kick"><span class="no">06</span> Risk reversal</p>
+    <h2>Don't love it, don't pay.</h2>
+    <p>You send the brief. Half to start ($287.50). Seven days later the page lands, and you get seven days to live with it.</p>
+    <p>Love it, pay the balance, and it's yours, research and all. Don't love it? Say so inside those seven days and the deposit comes back in full. Keep the research either way; it's yours.</p>
+    <p>I can offer that because I do the digging before I write a word, and because at $575 I'm backing myself to make you want the second one.</p>
+  </section>
+
+  <section id="slots">
+    <p class="kick"><span class="no">07</span> Capacity</p>
+    <h2>Ten of these, then it's gone.</h2>
+    <p>A page a week is a page a week, and revisions don't run on a meter. I can carry ten brand slots at this price before the arithmetic stops working. After that it's $2,500 and this letter reads very differently.</p>
+    <p><strong>Agencies: different arithmetic.</strong> You're buying at volume, for clients who'll never know my name, and the ten-slot cap doesn't apply to you. Neither does the ten-slot price. Email me with <em>"Agency rate"</em> in the subject and I'll send the white-label terms.</p>
+    <p>If you've been meaning to test a pre-sell page for six months and it keeps sliding down the sprint list, this is the cheapest that decision will ever be.</p>
+  </section>
+
+  <div class="cta-panel" id="reply">
+    <p class="lead-line">Send your best ad and the page it points to. That's the whole brief.</p>
+    <p>Best-performing ad, the page it currently lands on, the product, and your monthly spend. I handle the rest, and I answer within a day, usually faster. I work from Australia, so your page gets built and tested while your market sleeps.</p>
+    <div class="cta-actions">
+      <a class="btn" href="mailto:don@donchristie.com?subject=Sending%20you%20my%20best%20ad&amp;body=Here%27s%20my%20best-performing%20ad%3A%0A%0A%0A%0AAnd%20the%20page%20it%20currently%20points%20to%3A%0A%0A%0A%0AProduct%3A%0A%0A%0A%0AMonthly%20ad%20spend%3A%0A">Hit reply, send my best ad</a>
+      <span class="cta-alt">Prefer to talk it through first? Reply with <strong>"15 minutes"</strong> and I'll send times that suit your timezone.<!-- SWAP(don): when your booking page is live, replace this sentence with a link to your Calendly or Cal.com URL --></span>
+    </div>
+    <p class="small">No form, no CRM, no sequence. Just email: <a href="mailto:don@donchristie.com">don@donchristie.com</a></p>
+  </div>
+
+  <section id="faq">
+    <p class="kick"><span class="no">08</span> Things you're probably wondering</p>
+    <details>
+      <summary>Seven days from when?</summary>
+      <div class="a"><p>From the moment I have your brief. The dig takes two days, the draft takes the rest. If I'm booked, I'll tell you the start date before you pay anything.</p></div>
+    </details>
+    <details>
+      <summary>What do you need from me?</summary>
+      <div class="a"><p>Your best-performing ad, the page it currently points to, the product, and whatever reviews or support tickets you can share. I handle the rest.</p></div>
+    </details>
+    <details>
+      <summary>Do I pay upfront?</summary>
+      <div class="a"><p>Half to start ($287.50), the balance only after you've had the page in hand for a week and decided to keep it. Invoke the guarantee inside those seven days and the deposit comes back in full. It wouldn't mean much otherwise.</p></div>
+    </details>
+    <details>
+      <summary>Will this step on my agency's toes?</summary>
+      <div class="a"><p>Opposite. They keep the ads; I write the page they've never had bandwidth to build. Most agencies are relieved when someone else owns the landing page. If you're the agency, skip to the capacity section above. There's a lane for you.</p></div>
+    </details>
+    <details>
+      <summary>Can you write the ads too?</summary>
+      <div class="a"><p>Yes. Hooks and ad copy for Meta and TikTok. The ad and the page work better written by the same hand. That's a separate conversation once the page proves out.</p></div>
+    </details>
+    <details>
+      <summary>Who owns the work?</summary>
+      <div class="a"><p>You do. Copy, variants, research notes, all of it. I might ask to use it as an anonymised sample later. That's a favour, not a clause.</p></div>
+    </details>
+    <details>
+      <summary>Why should I believe a chef can write copy?</summary>
+      <div class="a"><p>You shouldn't, on my say-so. You just read a sales letter to the end. That was the audition. The <a href="sample.html">spec sample</a> is the better one, because it shows the format you're actually buying.</p></div>
+    </details>
+  </section>
+
+  <section id="ps">
+    <p class="ps"><span class="tag">P.S.</span>&nbsp; If you take nothing else from this: go and look at when your landing page was last changed. Then look at how many ad variants you've shipped since. The gap between those two numbers is the whole argument, and I didn't need to make it. Your own account did.</p>
+    <p class="ps"><span class="tag">P.P.S.</span>&nbsp; If you're not running paid traffic yet, don't buy this. It won't help you, and I'd rather say so now than take the $575.</p>
+  </section>
+
+  <div class="signoff">
+    <p>Cheers,</p>
+    <p class="sig">Don</p>
+  </div>
+
+  <footer class="site">
+    <div class="cols">
+      <div>
+        <p><strong>Don Christie</strong> · advertorial &amp; direct response copywriting</p>
+        <p>Supplements · DTC &amp; e-commerce · beauty &amp; skincare · pet health</p>
+      </div>
+      <div>
+        <p><a href="mailto:don@donchristie.com">don@donchristie.com</a> · Urraween, Australia</p>
+        <p class="fin">I answer within a day · © 2026</p>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<script>
+(function(){
+  var bar=document.getElementById('ctaBar');
+  if(!bar) return;
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) bar.style.transition='none';
+  var shown=false;
+  function onScroll(){
+    var should=window.scrollY>700;
+    if(should!==shown){shown=should;bar.classList.toggle('show',should);}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+})();
+</script>
+
+</body>
+</html>
